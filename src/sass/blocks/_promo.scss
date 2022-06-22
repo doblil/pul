@@ -1,0 +1,128 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url('../img/main.jpg') center center/cover no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header {
+        font-size: 42px;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: 700;
+    }
+    &__subheader {
+        font-size: 24px;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: 500;
+        margin-top: 25px;
+    }
+    &__icons {
+        margin-top: 70px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        width: 106px;
+        text-align: center;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 500;
+    }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    &__link {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media (max-width: 1200px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 35px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 22px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        &__icons {
+            margin-top: 70px;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        &__icon {
+            text-align: center;
+        }
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+        &__link {
+            margin-top: 16px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 35px;
+            text-align: center;
+        }
+        &__subheader {
+            font-size: 17px;
+            text-align: center;
+            margin-top: 13px;
+        }
+        &__icons {
+            margin-top: 70px;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        &__icon {
+            width: 105px;
+            text-align: center;
+            font-size: 12px;
+        }
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+        &__link {
+            margin-top: 16px;
+        }
+    }
+}
